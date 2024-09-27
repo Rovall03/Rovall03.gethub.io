@@ -1,30 +1,15 @@
+/*affects all pages*/
 html{background-color: antiquewhite; 
     width: auto;
     padding: 50px;
     margin: 20px;
 font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
 img{padding: 20px;}
-
-table{background-color: rgb(168, 214, 223); text-align: center;border-collapse: collapse;
-    width: 100%;
-    border: 1px solid #ddd;}
-.card{background-color: rgb(210, 140, 75);
-    padding: 70px; font-size: x-large;}
-
-#cookie{color: rgb(248, 189, 72); ;}
-#breads{color: rgb(116, 185, 96);}
-#photo{background-color: rgb(151, 140, 127);}
-#photo ul{margin-top: 300px;
-    text-align: center;
-    width: 50%;
-    float: right;font-size: xx-large;}
-
+ 
 h3{font-size: x-large; font-weight: bolder;}
 
-h1{font-size: xx-large; }
-
-form,label,input{font-size: x-large; text-align: center;}
-aside {width: 75%; float: left;}
+h1{font-size: xx-large; } 
 
 nav{font-size: larger;font-weight: bolder;}
 .links li a{color: #ba7048; background-color: #f0e6b6da;
@@ -42,5 +27,32 @@ nav{font-size: larger;font-weight: bolder;}
     margin:  0;
     padding: 0;
     overflow: hidden;}
+
+
+
+/*recipe cards*/
+.card{background-color: rgb(210, 140, 75);
+    padding: 70px; font-size: x-large;}
+
+    #photo{background-color: rgb(151, 140, 127);}
+
+    #photo ul{margin-top: 300px;
+    text-align: center;
+    width: 50%;
+    float: right;font-size: xx-large;}
+
+    /*Table color blue*/
+table{background-color: rgb(168, 214, 223); text-align: center;border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ddd;}
+   
+/* text color on headers for sections index page*/
+#cookie{color: rgb(248, 189, 72); ;}
+#breads{color: rgb(116, 185, 96);}
+
+/* form*/
+form,label,input{font-size: x-large; text-align: center;}
+aside {width: 75%; float: left;}
+
 
       
