@@ -19,7 +19,7 @@ h1{font-size: xx-large; }
 form,label,input{font-size: x-large;}
 nav{font-size: larger;font-weight: bolder;}
 #photo ul{margin-top: 300px;text-align: center;}
-.links li a{color: #c88663;}
+.links li a{color: #ba7048;}
 .links li {float: left; font-size: xx-large;
     display: block;
     color: #c88663;
@@ -29,3 +29,10 @@ nav{font-size: larger;font-weight: bolder;}
     margin:  0;
     padding: 0;
     overflow: hidden;}
+  .links a{
+        background-color: #f0e6b6da;
+        padding: 14px 25px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+      }
