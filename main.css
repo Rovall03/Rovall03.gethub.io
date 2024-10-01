@@ -12,6 +12,9 @@ h3{font-size: x-large; font-weight: bolder;}
 h1{font-size: xx-large; } 
 
 nav{font-size: larger;font-weight: bolder;}
+
+a:hover{background-color: #04AA6D;}
+
 .links li a{color: #ba7048; background-color: #f0e6b6da;
     padding: 14px 25px;
     text-align: center;
@@ -53,6 +56,3 @@ table{background-color: rgb(168, 214, 223); text-align: center;border-collapse: 
 /* form*/
 form,label,input{font-size: x-large; text-align: center;}
 aside {width: 75%; float: left;}
-
-
-      
